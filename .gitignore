@@ -1,33 +1,53 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игровой Сайт</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на Игровой Сайт!</h1>
+        <nav>
+            <ul>
+                <li><a href="#games">Игры</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="games">
+            <h2>Популярные Игры</h2>
+            <div class="game">
+                <h3>Игра 1</h3>
+                <p>Описание игры 1...</p>
+            </div>
+            <div class="game">
+                <h3>Игра 2</h3>
+                <p>Описание игры 2...</p>
+            </div>
+            <div class="game">
+                <h3>Игра 3</h3>
+                <p>Описание игры 3...</p>
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2>О Нас</h2>
+            <p>Информация о сайте...</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Email: info@gamewebsite.com</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Игровой Сайт</p>
+    </footer>
+</body>
+</html>
